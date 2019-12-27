@@ -2,7 +2,7 @@
 
 git pull
 oldip=$(cat yourip)
-newip=$(curl ip.6655.com/ip.aspx)
+newip=$(curl inet-ip.info)
 if [[ "$oldip" != "$newip" ]]; then
 	echo $newip > yourip
 	echo "IP change to $newip" >log
