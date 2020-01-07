@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cd "$( /usr/bin/dirname "$0"
+
 git pull
 oldip=$(cat yourip)
 newip1=$(curl inet-ip.info)
