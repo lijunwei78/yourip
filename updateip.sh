@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd "$( /usr/bin/dirname "$0"
+cd "$( /usr/bin/dirname "$0" )"
 
 git pull
 oldip=$(cat yourip)
